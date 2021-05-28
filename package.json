@@ -5,6 +5,9 @@
   "repository": "git@github.com:dword-design/try-renovate-automerge.git",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"foo\""
+  },
   "dependencies": {
     "change-case": "^1.0.0"
   }
