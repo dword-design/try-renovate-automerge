@@ -2,5 +2,9 @@
   "extends": [
     ":automergeMinor",
     ":semanticCommits"
-  ]
+  ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": "at any time"
+  },
 }
