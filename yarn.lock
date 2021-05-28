@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-caltime@~1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/caltime/-/caltime-1.3.1.tgz#4e6b3ab34553d2e9353f27b06cb40be671415415"
-  integrity sha512-QNPzV6+cFAw3O/DHEAH7LVYzsqj1KahH0Mr7g2sUpz37MRmVWZeQ33Km9rPEP2d9YTP78/5DI2fnmK1OqfgQgw==
+caltime@~1.4.0:
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/caltime/-/caltime-1.4.5.tgz#33e4fe052ca50525b055570b6cbcecad273ded42"
+  integrity sha512-I3bINIhSHlcLOnbLLRCGaUfTpmeyvnEL0LwJsrZI+yg+9XXQERtrHC738j1YjborHdvt/hkDAK+/bxzdrhzptw==
   dependencies:
     lodash "^4.17"
     moment-timezone "^0.5"
