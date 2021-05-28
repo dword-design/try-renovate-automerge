@@ -9,6 +9,6 @@
     "test": "echo \"foo\""
   },
   "dependencies": {
-    "change-case": "^1.0.0"
+    "change-case": "^4.0.0"
   }
 }
