@@ -5,12 +5,13 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": "!/^0/",
+      "matchCurrentVersion": ">=1.0.0",
       "automerge": true
     }
   ],
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": "at any time"
+    "schedule": "at any time",
+    "automerge": true
   }
 }
