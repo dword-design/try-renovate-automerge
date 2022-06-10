@@ -1772,7 +1772,7 @@ temp-dir@^2.0.0:
 time-zone@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/time-zone/-/time-zone-1.0.0.tgz#99c5bf55958966af6d06d83bdf3800dc82faec5d"
-  integrity sha1-mcW/VZWJZq9tBtg73zgA3IL67F0=
+  integrity sha512-TIsDdtKo6+XrPtiTm1ssmMngN1sAhyKnTO2kunQWqNPWIVvCm15Wmw4SWInwTVgJ5u/Tr04+8Ei9TNcw4x4ONA==
 
 to-readable-stream@^1.0.0:
   version "1.0.0"
