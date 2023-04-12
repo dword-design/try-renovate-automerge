@@ -17,7 +17,7 @@
   "rangeStrategy": "replace",
   "regexManagers": [
     {
-      "datasourceTemplate": "npm",
+      "datasourceTemplate": "github-tags",
       "fileMatch": [
         "\\.js$"
       ],
