@@ -22,9 +22,9 @@
         "\\.js$"
       ],
       "matchStrings": [
-        "(^|s)gitHubAction`(?<depName>.*?)@(?<currentValue>.*?)`"
+        "(^|s)gitHubAction`(?<depName>.*?)@v(?<currentValue>.*?)`"
       ],
-      "versioningTemplate": "node"
+      "versioningTemplate": "npm"
     }
   ],
   "semanticCommitScope": null
