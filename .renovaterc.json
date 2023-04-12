@@ -24,7 +24,7 @@
       "matchStrings": [
         "(^|s)gitHubAction`(?<depName>.*?)@(?<currentValue>.*?)`"
       ],
-      "versioningTemplate": "npm"
+      "versioningTemplate": "node"
     }
   ],
   "semanticCommitScope": null
