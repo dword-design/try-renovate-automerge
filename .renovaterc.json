@@ -1,17 +1,30 @@
 {
   "extends": [
-    ":semanticCommits"
+    ":semanticCommits",
+    ":semanticPrefixFix"
   ],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchCurrentVersion": ">=1.0.0",
-      "automerge": true
-    }
+  "github-actions": {
+    "enabled": false
+  },
+  "labels": [
+    "maintenance"
   ],
   "lockFileMaintenance": {
+    "automerge": true,
     "enabled": true,
-    "schedule": "at any time",
-    "automerge": true
-  }
+    "semanticCommitType": "chore"
+  },
+  "rangeStrategy": "replace",
+  "regexManagers": [
+    {
+      "datasourceTemplate": "npm",
+      "fileMatch": [
+        "\\.js$"
+      ],
+      "matchStrings": [
+        "gitHubAction`(?<depName>.*?)@(?<currentValue>.*?)`"
+      ]
+    }
+  ],
+  "semanticCommitScope": null
 }
