@@ -23,7 +23,8 @@
       ],
       "matchStrings": [
         "(^|s)gitHubAction`(?<depName>.*?)@(?<currentValue>.*?)`"
-      ]
+      ],
+      "versioning": "semver-coerced"
     }
   ],
   "semanticCommitScope": null
