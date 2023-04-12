@@ -22,7 +22,7 @@
         "\\.js$"
       ],
       "matchStrings": [
-        "(^|s)gitHubAction`(?<depName>.*?)@(?<currentValue>.*?)`"
+        "(^|s)gitHubAction`(?<depName>.*?)@v(?<currentValue>.*?)`"
       ]
     }
   ],
