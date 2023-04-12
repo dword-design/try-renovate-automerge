@@ -1,1 +1,1 @@
-githubAction`actions/setup-node@v2`
+gitHubAction`actions/setup-node@v2`
